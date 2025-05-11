@@ -1,6 +1,5 @@
 num = int(input("Enter the number of elements you want to add in list: "))
 input_list = []
-total = 0
 for i in range(num):
     list_element = float(input(f"Enter the {i+1} element of the list: "))
     input_list.append(list_element)
