@@ -1,5 +1,5 @@
-num1 = int(input("Enter the number 1 : "))
-num2 = int(input("Enter the number 2: "))
+num1 = float(input("Enter the number 1 : "))
+num2 = float(input("Enter the number 2: "))
 
 print(f"\nNumber 1 before swap: {num1}")
 print(f"Number 2 before swap: {num2}\n")
