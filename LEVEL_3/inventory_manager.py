@@ -13,7 +13,7 @@ if operation == 1:
     for i in range(buy):
         key = input("Enter the product name customer want to buy: ").casefold()
         value = int(input(f"Quantity of {key}: "))
-        if (key in inventory) and (inventory[key] > value):
+        if (key in inventory) and (inventory[key] >= value):
             print(f"Succesful Transaction\nYou Purchased {key} with {value} quantity")
             inventory[key] = inventory.get(key) - value
             print(f"New inventory is:\n {inventory}")
