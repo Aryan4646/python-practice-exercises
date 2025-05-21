@@ -1,7 +1,7 @@
 # Implement a function that takes a string input and returns the count of each vowel.
 def count_vow(input):
     count = 0
-    for i in input:
+    for i in input.lower():
         if i in "aieou":
             count += 1
     return count
